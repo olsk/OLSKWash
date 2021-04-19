@@ -19,8 +19,8 @@ const mod = {
 			throw new Error('OLSKErrorInputNotValid');
 		}
 
-		const url = new URL('', inputData);
-		
+		const url = new URL(inputData);
+
 		(function (entries) {
 			if (!entries.length) {
 				return;

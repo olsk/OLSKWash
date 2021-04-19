@@ -37,6 +37,11 @@ describe('OLSKWash', function test_OLSKWash() {
 		deepEqual(mod.OLSKWash(item), item);
 	});
 
+	it('preserves hash', function () {
+		const item = uLink() + '#alfa' + Math.random().toString();
+		deepEqual(mod.OLSKWash(item), item);
+	});
+
 	context('_OLSKWashGlobalKeys', function () {
 		
 		mod._OLSKWashGlobalKeys().forEach(function (e) {
