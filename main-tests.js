@@ -19,6 +19,7 @@ describe('_OLSKWashDomainKeys', function test__OLSKWashDomainKeys() {
 	it('returns array', function () {
 		deepEqual(mod._OLSKWashDomainKeys(), {
 			'spotify.com': 'si',
+			'youtube.com': 'pp',
 		});
 	});
 

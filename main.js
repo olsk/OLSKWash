@@ -11,6 +11,7 @@ const mod = {
 	_OLSKWashDomainKeys () {
 		return {
 			'spotify.com': 'si',
+			'youtube.com': 'pp',
 		};
 	},
 
