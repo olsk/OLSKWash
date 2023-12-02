@@ -64,7 +64,7 @@ describe('OLSKWash', function test_OLSKWash() {
 			it('scrubs ' + value, function () {
 				const flag = uRandomElement(true, false)
 				const link = `https://${ flag ? Math.random().toString() + key : 'example.com' }/playlist/1wkrgUQ6LcTCtpdCvtKjaj`;
-				const item = '?si=' + Math.random().toString();
+				const item = '?' + value + '=' + Math.random().toString();
 				deepEqual(mod.OLSKWash([link, item].join('')), link + (flag ? '' : item));
 			});
 
