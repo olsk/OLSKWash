@@ -9,6 +9,7 @@ describe('_OLSKWashGlobalKeys', function test__OLSKWashGlobalKeys() {
 			'fbclid',
 			'gclid',
 			'igshid',
+			'igsh',
 		]);
 	});
 

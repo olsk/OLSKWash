@@ -5,6 +5,7 @@ const mod = {
 			'fbclid',
 			'gclid',
 			'igshid',
+			'igsh',
 		];
 	},
 
