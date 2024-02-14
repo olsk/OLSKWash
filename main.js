@@ -19,6 +19,9 @@ const mod = {
 				'_branch_match_id',
 				'$full_url',
 			],
+			'twitter.com': [	
+				's',
+			],
 			'youtube.com': [	
 				'pp',
 			],

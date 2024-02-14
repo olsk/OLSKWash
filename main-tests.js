@@ -27,6 +27,9 @@ describe('_OLSKWashDomainKeys', function test__OLSKWashDomainKeys() {
 				'_branch_match_id',
 				'$full_url',
 			],
+			'twitter.com': [
+				's',
+			],
 			'youtube.com': [
 				'pp',
 			],
