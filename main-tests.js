@@ -22,6 +22,7 @@ describe('_OLSKWashDomainKeys', function test__OLSKWashDomainKeys() {
 		deepEqual(mod._OLSKWashDomainKeys(), {
 			'spotify.com': [
 				'si',
+				'_branch_referrer',
 			],
 			'youtube.com': [
 				'pp',

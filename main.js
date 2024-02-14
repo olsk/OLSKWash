@@ -14,6 +14,7 @@ const mod = {
 		return {
 			'spotify.com': [	
 				'si',
+				'_branch_referrer',
 			],
 			'youtube.com': [	
 				'pp',
