@@ -6,6 +6,7 @@ const mod = {
 			'gclid',
 			'igshid',
 			'igsh',
+			'utm_source',
 		];
 	},
 

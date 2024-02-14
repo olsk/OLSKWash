@@ -10,6 +10,7 @@ describe('_OLSKWashGlobalKeys', function test__OLSKWashGlobalKeys() {
 			'gclid',
 			'igshid',
 			'igsh',
+			'utm_source',
 		]);
 	});
 
