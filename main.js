@@ -17,6 +17,7 @@ const mod = {
 				'si',
 				'_branch_referrer',
 				'_branch_match_id',
+				'$full_url',
 			],
 			'youtube.com': [	
 				'pp',

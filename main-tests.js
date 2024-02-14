@@ -25,6 +25,7 @@ describe('_OLSKWashDomainKeys', function test__OLSKWashDomainKeys() {
 				'si',
 				'_branch_referrer',
 				'_branch_match_id',
+				'$full_url',
 			],
 			'youtube.com': [
 				'pp',
