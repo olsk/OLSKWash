@@ -11,6 +11,7 @@ describe('_OLSKWashGlobalKeys', function test__OLSKWashGlobalKeys() {
 			'igshid',
 			'igsh',
 			'utm_source',
+			'utm_medium',
 		]);
 	});
 

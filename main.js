@@ -7,6 +7,7 @@ const mod = {
 			'igshid',
 			'igsh',
 			'utm_source',
+			'utm_medium',
 		];
 	},
 
