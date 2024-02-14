@@ -49,7 +49,7 @@ const mod = {
 			}).join('&');
 
 			url.search = query ? '?' + query : '';
-		})(Array.from((new URLSearchParams(url.search.replace(/\?/, ''))).entries()));
+		})(Array.from(new URLSearchParams(url.search.replace(/\?/, ''))));
 
 		return url.toString();
 	},
