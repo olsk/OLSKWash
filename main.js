@@ -12,8 +12,12 @@ const mod = {
 
 	_OLSKWashDomainKeys () {
 		return {
-			'spotify.com': 'si',
-			'youtube.com': 'pp',
+			'spotify.com': [	
+				'si',
+			],
+			'youtube.com': [	
+				'pp',
+			],
 		};
 	},
 
@@ -30,8 +34,8 @@ const mod = {
 			}
 
 			const query = entries.filter(function ([key, value]) {
-				return !mod._OLSKWashGlobalKeys().includes(key) && !Object.entries(mod._OLSKWashDomainKeys()).filter(function ([domain, param]) {
-					return url.hostname.includes(domain) && (param === key);
+				return !mod._OLSKWashGlobalKeys().includes(key) && !Object.entries(mod._OLSKWashDomainKeys()).filter(function ([domain, params]) {
+					return params.filter(e => url.hostname.includes(domain) && (e === key)).length;
 				}).length;
 			}).map(function (e) {
 				return e.join('=');
