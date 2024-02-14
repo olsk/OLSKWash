@@ -67,13 +67,17 @@ describe('OLSKWash', function test_OLSKWash() {
 
 	context('_OLSKWashDomainKeys', function () {
 		
-		Object.entries(mod._OLSKWashDomainKeys()).forEach(function ([key, value]) {
-			
-			it('scrubs ' + value, function () {
-				const flag = uRandomElement(true, false)
-				const link = `https://${ flag ? Math.random().toString() + key : 'example.com' }/playlist/1wkrgUQ6LcTCtpdCvtKjaj`;
-				const item = '?' + value + '=' + Math.random().toString();
-				deepEqual(mod.OLSKWash([link, item].join('')), link + (flag ? '' : item));
+		Object.entries(mod._OLSKWashDomainKeys()).forEach(function ([key, params]) {
+
+			params.forEach(function (value) {
+				
+				it('scrubs ' + value, function () {
+					const flag = uRandomElement(true, false)
+					const link = `https://${ flag ? Math.random().toString() + key : 'example.com' }/playlist/1wkrgUQ6LcTCtpdCvtKjaj`;
+					const item = '?' + value + '=' + Math.random().toString();
+					deepEqual(mod.OLSKWash([link, item].join('')), link + (flag ? '' : item));
+				});
+
 			});
 
 		});
