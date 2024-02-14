@@ -23,6 +23,7 @@ describe('_OLSKWashDomainKeys', function test__OLSKWashDomainKeys() {
 			'spotify.com': [
 				'si',
 				'_branch_referrer',
+				'_branch_match_id',
 			],
 			'youtube.com': [
 				'pp',
