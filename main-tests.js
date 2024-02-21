@@ -8,6 +8,7 @@ describe('_OLSKWashGlobalKeys', function test__OLSKWashGlobalKeys() {
 		deepEqual(mod._OLSKWashGlobalKeys(), [
 			'fbclid',
 			'gclid',
+			'twclid',
 			'igshid',
 			'igsh',
 			'utm_source',

@@ -4,6 +4,7 @@ const mod = {
 		return [
 			'fbclid',
 			'gclid',
+			'twclid',
 			'igshid',
 			'igsh',
 			'utm_source',
