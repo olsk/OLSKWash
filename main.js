@@ -9,6 +9,7 @@ const mod = {
 			'igsh',
 			'utm_source',
 			'utm_medium',
+			'utm_campaign',
 		];
 	},
 
