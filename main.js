@@ -10,6 +10,7 @@ const mod = {
 			'utm_source',
 			'utm_medium',
 			'utm_campaign',
+			'mibextid',
 		];
 	},
 

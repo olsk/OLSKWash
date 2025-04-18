@@ -14,6 +14,7 @@ describe('_OLSKWashGlobalKeys', function test__OLSKWashGlobalKeys() {
 			'utm_source',
 			'utm_medium',
 			'utm_campaign',
+			'mibextid',
 		]);
 	});
 
