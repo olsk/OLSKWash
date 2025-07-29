@@ -35,6 +35,7 @@ describe('_OLSKWashDomainKeys', function test__OLSKWashDomainKeys() {
 			],
 			'youtube.com': [
 				'pp',
+				'si',
 			],
 		});
 	});

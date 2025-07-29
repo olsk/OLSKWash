@@ -27,6 +27,7 @@ const mod = {
 			],
 			'youtube.com': [	
 				'pp',
+				'si',
 			],
 		};
 	},
