@@ -55,7 +55,7 @@ const mod = {
 			url.search = query ? '?' + query : '';
 		})(Array.from(new URLSearchParams(url.search.replace(/\?/, ''))));
 
-		return url.toString();
+		return (e => url.pathname === '/' ? e.slice(0, -1) : e)(url.toString());
 	},
 
 };

@@ -60,6 +60,11 @@ describe('OLSKWash', function test_OLSKWash() {
 		deepEqual(mod.OLSKWash(item), item);
 	});
 
+	it('adds no path', function () {
+		const item = 'https://alfa.bravo';
+		deepEqual(mod.OLSKWash(item), item);
+	});
+
 	context('_OLSKWashGlobalKeys', function () {
 		
 		mod._OLSKWashGlobalKeys().forEach(function (e) {
