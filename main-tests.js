@@ -69,6 +69,11 @@ describe('OLSKWash', function test_OLSKWash() {
 		deepEqual(mod.OLSKWash(item), item);
 	});
 
+	it('revises youtube v', function () {
+		const item = Math.random().toString();
+		deepEqual(mod.OLSKWash(`https://www.youtube.com/v/${ item }?version=3`), `https://youtu.be/${ item }?version=3`);
+	});
+
 	context('_OLSKWashGlobalKeys', function () {
 		
 		mod._OLSKWashGlobalKeys().forEach(function (e) {

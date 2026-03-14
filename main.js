@@ -41,7 +41,7 @@ const mod = {
 			throw new Error('OLSKErrorInputNotValid');
 		}
 
-		const url = new URL(inputData);
+		const url = new URL(inputData.replace('www.youtube.com/v/', 'youtu.be/'));
 
 		(function (entries) {
 			if (!entries.length) {
