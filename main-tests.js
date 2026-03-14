@@ -37,6 +37,10 @@ describe('_OLSKWashDomainKeys', function test__OLSKWashDomainKeys() {
 				'pp',
 				'si',
 			],
+			'youtu.be': [
+				'pp',
+				'si',
+			],
 		});
 	});
 

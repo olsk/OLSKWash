@@ -29,6 +29,10 @@ const mod = {
 				'pp',
 				'si',
 			],
+			'youtu.be': [	
+				'pp',
+				'si',
+			],
 		};
 	},
 
