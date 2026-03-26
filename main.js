@@ -32,6 +32,7 @@ const mod = {
 			'youtu.be': [	
 				'pp',
 				'si',
+				'is',
 			],
 		};
 	},
